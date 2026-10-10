@@ -1,0 +1,13 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "project",
+      "name": "Launch Full Stack (freecurrencyapi.com)",
+      "project": "client/package.json",
+      "projectTarget": "dev",
+      "preLaunchTask": "Run Backend Server"
+    }
+  ]
+}

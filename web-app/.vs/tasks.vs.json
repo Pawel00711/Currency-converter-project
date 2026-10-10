@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "Run Backend Server",
+      "type": "launch",
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "cd \"${workspaceRoot}\\server\" && node index.js"
+      ],
+      "workingDir": "${workspaceRoot}"
+    }
+  ]
+}
