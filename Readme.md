@@ -16,3 +16,8 @@ REPOSITORY STRUCTURE:
 web-app: Contains the core source code for the assessment application.
 Development document: Contains the planning and specification documentation.
 Setup-and-Launch: Contains background launch scripts and configuration files.
+
+Project Demo
+You can watch the video presentation and application demonstration directly on YouTube:
+[[Watch the video on YouTube](PASTE_YOUR_YOUTUBE_LINK_HERE)](https://youtu.be/25jy_FneID4)
+
