@@ -1,20 +1,10 @@
 @echo off
-title Launching freecurrencyapi.com Full Stack Engine
-cls
+title Currency Converter Launcher
+echo ===================================================
+echo [LAUNCHER] Launching C++ Direct Currency Engine...
+echo ===================================================
 
-echo ====================================================
-echo   INITIALIZING CURRENCY APPS PIPELINE
-echo ====================================================
-echo.
+:: Execute the compiled openFrameworks native binary target directly from the bin folder
+start "" "..\\bin\\currence cenverter pawel.exe"
 
-echo [1/2] Starting Express Server with Disk Storage Cache...
-start cmd /k "cd /d "%~dp0web-app\server" && node index.js"
-
-echo [2/2] Booting Vite React Frontend Interface...
-start cmd /k "cd /d "%~dp0web-app\client" && npm run dev"
-
-:: Wait 2 seconds for the server pipelines to stabilize
-timeout /t 2 /nobreak >nul
-
-echo [Success] Automatically launching application interface...
-start http://localhost:5173/
+exit
